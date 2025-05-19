@@ -1,19 +1,38 @@
 # 💰 Sistema Bancário em Python
 
-Este é um projeto simples de um sistema bancário, desenvolvido como parte do bootcamp da DIO (Digital Innovation One). O sistema é executado no terminal e simula funcionalidades básicas de uma conta bancária.
+Este é um projeto simples e funcional de um **sistema bancário**, desenvolvido como parte do aprendizado no **bootcamp da DIO (Digital Innovation One)**. O objetivo é consolidar conhecimentos iniciais em Python — lógica de programação, estruturas condicionais, laços de repetição e manipulação de dados via terminal — simulando operações bancárias básicas (depósitos, saques e extrato).
 
-## 📌 Funcionalidades
+---
 
-- ✅ **Depósito:** Permite adicionar valores à conta.
-- ✅ **Saque:** Saques com limite de R$ 500 por operação e até 3 saques por sessão.
-- ✅ **Extrato:** Exibe o histórico de movimentações e o saldo atual.
-- ✅ **Sair:** Encerra o sistema de forma segura.
+## 🧩 Funcionalidades
 
-## ⚙️ Como executar
+- **Depósito:** adiciona valores positivos à conta do usuário.  
+- **Saque:** permite até **3 saques por sessão**, com limite de **R$ 500** por operação e validação de saldo.  
+- **Extrato:** exibe o histórico completo de movimentações e o saldo atual.  
+- **Sair:** finaliza o sistema com mensagem personalizada.  
 
-1. Certifique-se de ter o Python instalado na sua máquina (versão 3.x).
-2. Clone este repositório ou copie o código do arquivo `sistema_bancario.py`.
-3. Execute no terminal com o comando:
+---
 
-```bash
-python sistema_bancario.py
+## 🎯 Objetivos do Projeto
+
+- Entrada e saída de dados (`input`, `print`)  
+- Formatação com *f‑strings*  
+- Estruturas condicionais (`if / elif / else`)  
+- Estrutura de repetição (`while`)  
+- Operadores lógicos e relacionais  
+- Validação de entradas e controle de fluxo  
+- Manipulação básica de strings  
+
+---
+
+## ⚙️ Tecnologias e Ferramentas
+
+| Requisito | Descrição |
+|-----------|-----------|
+| **Linguagem** | Python 3.13 ou superior |
+| **Execução** | Terminal ou Prompt de Comando |
+| **Editor (opcional)** | VS Code, PyCharm, ou outro de sua preferência |
+
+---
+
+## 🚀 Como Executar
