@@ -1,50 +1,120 @@
 # 💰 Sistema Bancário em Python
 
-Este repositório contém uma série de scripts que implementam um sistema bancário simples, com funcionalidades progressivas que abrangem operações básicas, controle de contas, histórico de transações e filtros avançados.
+Implementação progressiva de um sistema bancário em Python, desenvolvida para explorar conceitos fundamentais e avançados da linguagem, incluindo programação procedural, orientação a objetos, histórico de transações e filtros de movimentação.
 
-Códigos feitos para o Bootcamp Suzano Python Developer da DIO (Digital Innovation One).
+O projeto apresenta uma evolução incremental entre versões, demonstrando diferentes abordagens para modelagem e organização de sistemas financeiros.
 
-## 📂 Descrição dos Arquivos
+---
 
-- **SistemaBancario1_Simples.py**  
-  Implementação básica com operações fundamentais como depósito e saque.
+## 🎯 Objetivo
 
-- **SistemaBancario2_Complexo.py**  
-  Versão aprimorada com regras adicionais e tratamento de exceções.
+Demonstrar a evolução de um sistema bancário através de diferentes níveis de complexidade, aplicando boas práticas de programação, abstração de regras de negócio e princípios de orientação a objetos.
 
-- **SistemaBancario3_OOP_Hist.py**  
-  Modelo orientado a objetos que inclui histórico detalhado de transações.
+---
 
-- **SistemaBancario4_OOP_Transacoes.py**  
-  Estrutura usando classes abstratas para representar diferentes tipos de transações.
+## 📂 Estrutura do Projeto
 
-- **SistemaBancario5_FiltrosTransacoes.py**  
-  Funcionalidades para filtrar e analisar transações segundo critérios diversos, incluindo valor limite.
+### v1_operacoes_basicas.py
 
-## ⚙️ Tecnologias e Ferramentas
+Implementação inicial com operações essenciais:
 
-| Requisito       | Descrição                           |
-|-----------------|-----------------------------------|
-| **Linguagem**   | Python 3.13 ou superior            |
-| **Execução**    | Terminal ou Prompt de Comando      |
-| **Editor (opcional)** | VS Code, PyCharm ou outro editor de sua preferência |
+* Depósito
+* Saque
+* Consulta de saldo
 
-## 🧩 Funcionalidades
+### v2_validacoes.py
 
-- Criação e gerenciamento de contas e clientes.
-- Realização de transações financeiras com validação.
-- Registro completo e consulta do histórico de transações.
-- Implementação de filtros e regras específicas para análise de movimentações.
-- Código organizado e modular, seguindo princípios da programação orientada a objetos.
+Expansão das regras de negócio:
 
-## 🎯 Requisitos
+* Validação de operações
+* Controle de limites
+* Tratamento de entradas inválidas
 
-- Python 3.x
+### v3_oop_historico.py
 
-## Como Utilizar
+Introdução à orientação a objetos:
 
-1. Faça o download ou clone este repositório.  
-2. Escolha o script correspondente ao nível de funcionalidade desejado.  
-3. Execute o script com o interpretador Python:  
-   ```bash
-   python NomeDoArquivo.py
+* Classes para clientes e contas
+* Registro de histórico de transações
+* Organização do código em entidades
+
+### v4_transacoes.py
+
+Modelagem avançada utilizando abstrações:
+
+* Classes abstratas
+* Especialização de transações
+* Maior desacoplamento entre regras de negócio
+
+### v5_filtros_transacoes.py
+
+Evolução do histórico financeiro:
+
+* Consulta de movimentações
+* Aplicação de filtros
+* Análise de transações por critérios específicos
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+* Python 3
+* Programação Orientada a Objetos (POO)
+* Classes Abstratas (ABC)
+* Estruturas de Dados
+* Manipulação de Objetos
+* Regras de Negócio
+
+---
+
+## 📈 Conceitos Aplicados
+
+* Programação Procedural
+* Orientação a Objetos
+* Encapsulamento
+* Herança
+* Polimorfismo
+* Classes Abstratas
+* Validação de Dados
+* Controle de Fluxo
+* Modelagem de Sistemas
+
+---
+
+## ▶️ Como Executar
+
+1. Clone o repositório:
+
+```bash
+git clone https://github.com/arthurcfranklin/sistema_bancario.git
+```
+
+2. Acesse o diretório do projeto:
+
+```bash
+cd sistema_bancario
+```
+
+3. Execute a versão desejada:
+
+```bash
+python v1_operacoes_basicas.py
+```
+
+ou
+
+```bash
+python v5_filtros_transacoes.py
+```
+
+---
+
+## 📚 Aprendizados
+
+Este projeto registra a evolução da construção de um sistema bancário em Python, demonstrando a aplicação gradual de conceitos de programação e arquitetura de software em diferentes estágios de desenvolvimento.
+
+---
+
+## 📄 Licença
+
+Este projeto está disponível para fins de estudo e aprendizado.
